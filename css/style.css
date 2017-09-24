@@ -1,0 +1,58 @@
+/*selektor znacznika*/
+h1 {
+background-color: red;
+}
+
+h1 {
+    background-color: yellow
+}
+
+/*selektor id*/
+#pharagraph {
+    color: gray;
+}
+
+/*/selektor klasy*/
+.menu-item {
+    font-size: 3em;
+}
+
+/*selektor potomstwa bezpośredniego ">"
+*/
+
+div>span{
+    color: blue;
+}
+
+/*selektor potomstwa*/
+
+section span {
+    background-color: yellow;
+}
+
+/*selektor bezpośredniego rodzeństwa"+"*/
+
+h2 + p {
+    font-size: 1.5em;
+}
+
+/*selektor rodzeństwa*/
+
+h3 ~ p {
+    background-color: pink
+}
+
+h2 {
+    background-color: fuchsia !important
+}
+
+#main-header {
+    background-color: green
+}
+.header {
+    background-color: orange
+}
+
+h2 {
+    background-color: aqua
+}
